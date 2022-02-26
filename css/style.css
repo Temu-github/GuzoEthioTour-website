@@ -56,6 +56,11 @@ body {
 	font-family: "Raleway", sans-serif;
 	font-weight: 600;
 	opacity: 0.95;
+	
+}
+.brand-logo-1 {
+	text-align: center;
+	border: 1px outset #eee;
 }
 .site-brand span {
 	font-weight: 800;
@@ -203,111 +208,6 @@ header {
 	text-align: left;
 }
 
-@-webkit-keyframes bounce-in-top {
-	0% {
-		-webkit-transform: translateY(-500px);
-		transform: translateY(-500px);
-		-webkit-animation-timing-function: ease-in;
-		animation-timing-function: ease-in;
-		opacity: 0;
-	}
-	38% {
-		-webkit-transform: translateY(0);
-		transform: translateY(0);
-		-webkit-animation-timing-function: ease-out;
-		animation-timing-function: ease-out;
-		opacity: 1;
-	}
-	55% {
-		-webkit-transform: translateY(-65px);
-		transform: translateY(-65px);
-		-webkit-animation-timing-function: ease-in;
-		animation-timing-function: ease-in;
-	}
-	72% {
-		-webkit-transform: translateY(0);
-		transform: translateY(0);
-		-webkit-animation-timing-function: ease-out;
-		animation-timing-function: ease-out;
-	}
-	81% {
-		-webkit-transform: translateY(-28px);
-		transform: translateY(-28px);
-		-webkit-animation-timing-function: ease-in;
-		animation-timing-function: ease-in;
-	}
-	90% {
-		-webkit-transform: translateY(0);
-		transform: translateY(0);
-		-webkit-animation-timing-function: ease-out;
-		animation-timing-function: ease-out;
-	}
-	95% {
-		-webkit-transform: translateY(-8px);
-		transform: translateY(-8px);
-		-webkit-animation-timing-function: ease-in;
-		animation-timing-function: ease-in;
-	}
-	100% {
-		-webkit-transform: translateY(0);
-		transform: translateY(0);
-		-webkit-animation-timing-function: ease-out;
-		animation-timing-function: ease-out;
-	}
-}
-
-@keyframes bounce-in-top {
-	0% {
-		-webkit-transform: translateY(-500px);
-		transform: translateY(-500px);
-		-webkit-animation-timing-function: ease-in;
-		animation-timing-function: ease-in;
-		opacity: 0;
-	}
-	38% {
-		-webkit-transform: translateY(0);
-		transform: translateY(0);
-		-webkit-animation-timing-function: ease-out;
-		animation-timing-function: ease-out;
-		opacity: 1;
-	}
-	55% {
-		-webkit-transform: translateY(-65px);
-		transform: translateY(-65px);
-		-webkit-animation-timing-function: ease-in;
-		animation-timing-function: ease-in;
-	}
-	72% {
-		-webkit-transform: translateY(0);
-		transform: translateY(0);
-		-webkit-animation-timing-function: ease-out;
-		animation-timing-function: ease-out;
-	}
-	81% {
-		-webkit-transform: translateY(-28px);
-		transform: translateY(-28px);
-		-webkit-animation-timing-function: ease-in;
-		animation-timing-function: ease-in;
-	}
-	90% {
-		-webkit-transform: translateY(0);
-		transform: translateY(0);
-		-webkit-animation-timing-function: ease-out;
-		animation-timing-function: ease-out;
-	}
-	95% {
-		-webkit-transform: translateY(-8px);
-		transform: translateY(-8px);
-		-webkit-animation-timing-function: ease-in;
-		animation-timing-function: ease-in;
-	}
-	100% {
-		-webkit-transform: translateY(0);
-		transform: translateY(0);
-		-webkit-animation-timing-function: ease-out;
-		animation-timing-function: ease-out;
-	}
-}
 
 .header-form {
 	background: rgba(41, 15, 15, 0.3);
@@ -761,11 +661,72 @@ header.header-sm {
 /* hotels */
 .w3-panel{
 	text-align: center!important;
-	color: rgb(235, 243, 239)!important;
+	color: #ebf3ef!important;
 	
+}
+.reservation input, button{
+	background: #8584841a!important;
+	-ms-flex-direction: column!important;
+	flex-direction: row!important;
+	box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.4)!important;
 }
 .w3-red{
 font-size:20px;	
+}
+.reservation input[type="date"] {
+    text-transform: uppercase!important;
+	max-width: 500px!important;
+	color: #156bc1!important;
+	font-size:1.0rem!important;
+	background: rgb(233, 230, 230) !important;
+}
+.reservation input[type="text"] {
+   	max-width: 500px!important;
+	color: #156bc1!important;
+	font-size:1.1rem!important;
+
+}
+.reservation input[type="number"] {
+    text-transform: uppercase!important;
+	max-width: 500px!important;
+	color: #156bc1!important;
+	font-size:1.1rem!important;
+	background: rgb(233, 230, 230) !important;
+}
+.reservation {
+	font-size:1.1rem;
+	color: #156bc1;
+	background:#ffffff;
+	margin-top: 15px;
+	padding-bottom: 2rem;
+	border-radius:10px;
+
+}
+
+.reservation button {
+	background: #156bc1!important;
+}
+.reservation button:hover {
+	background: #156bc1!important;
+	color:#f6f7fa!important;
+}
+.choose:hover {
+    color: #fff!important;
+    background-color: #69f084!important;
+}
+.reservation p{
+	font-size:1.1rem!important;
+	color: rgb(13, 13, 14)!important;
+}
+.reservation span{
+	font-size: 28px;
+    line-height: 32px;
+    font-weight: 700;
+    color: #d32f2f;
+    margin-bottom: 0;
+}
+.room-title{
+	margin-bottom: 10px;
 }
 
 /* popular section */

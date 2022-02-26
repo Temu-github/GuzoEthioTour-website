@@ -81,3 +81,21 @@ function showImageContent(index) {
 modalCloseBtn.addEventListener('click', () => {
     imgModalDiv.style.display = "none";
 })
+
+let myContactForm = document.getElementById("contactForm");
+    myContactForm.addEventListener('submit', (myForm) 
+  )
+function myForm(e) {
+    e.preventDefault();
+    var msg = document.getElementById('yourMessege');
+    let fname = document.contact.firstName.value;
+    
+    if (fname == "") {
+        msg.innerHTML = "Please enter your name."
+        msg.style.color = "red"
+
+    } else {
+        msg.innerHTML = "Thank You! We have received your information!"
+        msg.style.color = "darkblue"
+    }
+}

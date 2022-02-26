@@ -88,36 +88,35 @@
 
     <!-- Page content -->
     <div class="w3-content" style="max-width:1532px;">
-
-        <div class="w3-container w3-margin-top" id="rooms">
-            <h3>Rooms</h3>
-            <p>Make yourself at home is our slogan. We offer the best beds in the industry. Sleep well and rest well.
-            </p>
-        </div>
-
-        <div class="w3-row-padding">
+        <div class="w3-row-padding reservation container">
+            <div class="room-title">
+                <span>Rooms</span>
+                <p>Make yourself at home is our slogan. We offer the best beds in the industry. Sleep well and rest well
+                    by reserving a room with us.
+                </p>
+                <span>Where to?</span>
+            </div>
             <div class="w3-col m3">
                 <label><i class="fa fa-calendar-o"></i> Check In</label>
-                <input class="w3-input w3-border" type="text" placeholder="DD MM YYYY">
+                <input class="w3-input w3-border hotel-1" type="date" placeholder="Date">
             </div>
             <div class="w3-col m3">
                 <label><i class="fa fa-calendar-o"></i> Check Out</label>
-                <input class="w3-input w3-border" type="text" placeholder="DD MM YYYY">
+                <input class="w3-input w3-border hotel-1" type="date" placeholder="Date">
             </div>
             <div class="w3-col m2">
                 <label><i class="fa fa-male"></i> Adults</label>
-                <input class="w3-input w3-border" type="number" placeholder="1">
+                <input class="w3-input w3-border hotel-1" type="number" placeholder="1">
             </div>
             <div class="w3-col m2">
                 <label><i class="fa fa-child"></i> Kids</label>
-                <input class="w3-input w3-border" type="number" placeholder="0">
+                <input class="w3-input w3-border hotel-1" type="number" placeholder="0">
             </div>
             <div class="w3-col m2">
                 <label><i class="fa fa-search"></i> Search</label>
-                <button class="w3-button w3-block w3-black">Search</button>
+                <button class="w3-button w3-block w3-black hotle-1 ">Search</button>
             </div>
-        </div>
-
+        </div><br>
         <div class="w3-row-padding w3-padding-16">
             <div class="w3-third w3-margin-bottom">
                 <img src="./images/hotel-3.jpg" alt="Addis Abeba" style="width:100%">
@@ -128,7 +127,7 @@
                     <p>15m<sup>2</sup></p>
                     <p class="w3-large"><i class="fa fa-bath"></i> <i class="fa fa-phone"></i> <i
                             class="fa fa-wifi"></i></p>
-                    <button class="w3-button w3-block w3-green w3-margin-bottom">Choose Room</button>
+                    <button class="w3-button w3-block w3-green w3-margin-bottom choose">Choose Room</button>
                 </div>
             </div>
             <div class="w3-third w3-margin-bottom">
@@ -140,7 +139,7 @@
                     <p>25m<sup>2</sup></p>
                     <p class="w3-large"><i class="fa fa-bath"></i> <i class="fa fa-phone"></i> <i
                             class="fa fa-wifi"></i> <i class="fa fa-tv"></i></p>
-                    <button class="w3-button w3-block w3-green w3-margin-bottom">Choose Room</button>
+                    <button class="w3-button w3-block w3-green w3-margin-bottom choose">Choose Room</button>
                 </div>
             </div>
             <div class="w3-third w3-margin-bottom">
@@ -153,7 +152,7 @@
                     <p class="w3-large"><i class="fa fa-bath"></i> <i class="fa fa-phone"></i> <i
                             class="fa fa-wifi"></i> <i class="fa fa-tv"></i> <i class="fa fa-glass"></i> <i
                             class="fa fa-cutlery"></i></p>
-                    <button class="w3-button w3-block w3-green w3-margin-bottom">Choose Room</button>
+                    <button class="w3-button w3-block w3-green w3-margin-bottom choose">Choose Room</button>
                 </div>
             </div>
         </div>
@@ -167,7 +166,7 @@
                     <p>15m<sup>2</sup></p>
                     <p class="w3-large"><i class="fa fa-bath"></i> <i class="fa fa-phone"></i> <i
                             class="fa fa-wifi"></i></p>
-                    <button class="w3-button w3-block w3-green w3-margin-bottom">Choose Room</button>
+                    <button class="w3-button w3-block w3-green w3-margin-bottom choose">Choose Room</button>
                 </div>
             </div>
             <div class="w3-third w3-margin-bottom">
@@ -179,7 +178,7 @@
                     <p>25m<sup>2</sup></p>
                     <p class="w3-large"><i class="fa fa-bath"></i> <i class="fa fa-phone"></i> <i
                             class="fa fa-wifi"></i> <i class="fa fa-tv"></i></p>
-                    <button class="w3-button w3-block w3-green w3-margin-bottom">Choose Room</button>
+                    <button class="w3-button w3-block w3-green w3-margin-bottom choose">Choose Room</button>
                 </div>
             </div>
             <div class="w3-third w3-margin-bottom">
@@ -192,7 +191,7 @@
                     <p class="w3-large"><i class="fa fa-bath"></i> <i class="fa fa-phone"></i> <i
                             class="fa fa-wifi"></i> <i class="fa fa-tv"></i> <i class="fa fa-glass"></i> <i
                             class="fa fa-cutlery"></i></p>
-                    <button class="w3-button w3-block w3-green w3-margin-bottom">Choose Room</button>
+                    <button class="w3-button w3-block w3-green w3-margin-bottom choose">Choose Room</button>
                 </div>
             </div>
         </div>
@@ -254,7 +253,7 @@
     <footer class="py-4">
         <div class="container footer-row">
             <div class="footer-item">
-                <a href="index.html" class="site-brand">
+                <a href="index.html" class="site-brand brand-logo-1">
                     <span class="green">Guzo</span><span class="yellow">Ethio</span><span class="red">Tour</span>
                 </a>
                 <p class="text">GuzoEthioTour is a local tour operator in Addis Ababa, Aksum, Lalibela, Arbaminch,and
@@ -293,9 +292,9 @@
         </div>
 
     </footer>
-    <div class="footer_bottom">
+    <div class="footer_bottom"> 
+        
         <ul class="social-links">
-            <li class="fas1">Find Us On:</li>
             <li class="fas">
                 <a href="#">
                     <i class="fab fa-facebook-f"></i>
@@ -320,20 +319,8 @@
             </li>
         </ul>
     </div>
-
     <!-- end of footer -->
-
     <!-- js -->
     <script src="js/script.js"></script>
-
-
 </body>
-
-</html>
-
-
-
-
-</body>
-
 </html>
