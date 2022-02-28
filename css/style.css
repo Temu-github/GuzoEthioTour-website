@@ -110,8 +110,8 @@ body {
 #navbar-collapse {
 	overflow-x: hidden;
 	transition: 0.5s;
-	background-color: hsl(0, 0%, 0%);
-	background-color: hsla(0, 0%, 0%, 0.902);
+	background-color: hsl(120, 100%, 25%);
+	background-color: hsla(120, 100%, 25%, 0.8);
 	position: fixed;
 	top: 0;
 	right: 0;
