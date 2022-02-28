@@ -1,5 +1,5 @@
 :root {
-	--green: #07a136;
+	--green: #096e24;
 	--gray: #b8bbba;
 	--light-grey: #f7f7f7;
 	--dark: #0e1010;
@@ -110,8 +110,8 @@ body {
 #navbar-collapse {
 	overflow-x: hidden;
 	transition: 0.5s;
-	background-color: hsl(0, 0%, 0%);
-	background-color: hsla(0, 0%, 0%, 0.902);
+	background-color: hsl(136, 28, 44);
+	background-color: rgba(88, 150, 104, 0.92);
 	position: fixed;
 	top: 0;
 	right: 0;
@@ -197,14 +197,14 @@ header {
 	letter-spacing: 2px;
 	/* -webkit-animation: bounce-in-top 1.1s both;
 	animation: bounce-in-top 1.1s both; */
-	color: #40f00b;
-	font-family: "Helvetica Ne";
+	color: #16cc47;
+	font-family: 'Russo One', sans-serif;
 }
 .header-title p {
 	margin: 1.5rem auto;
 	max-width: 700px;
 	font-weight: 400;
-	font-size: 1.3rem;
+	font-size: 1.25rem;
 	line-height: 1.5;
 	text-align: left;
 }
@@ -677,26 +677,26 @@ font-size:20px;
 .reservation input[type="date"] {
     text-transform: uppercase!important;
 	max-width: 500px!important;
-	color: #156bc1!important;
+	color: #096e24!important;
 	font-size:1.0rem!important;
 	background: rgb(233, 230, 230) !important;
 }
 .reservation input[type="text"] {
    	max-width: 500px!important;
-	color: #156bc1!important;
+	color: #096e24!important;
 	font-size:1.1rem!important;
 
 }
 .reservation input[type="number"] {
     text-transform: uppercase!important;
 	max-width: 500px!important;
-	color: #156bc1!important;
+	color: #096e24!important;
 	font-size:1.1rem!important;
 	background: rgb(233, 230, 230) !important;
 }
 .reservation {
 	font-size:1.1rem;
-	color: #156bc1;
+	color: #096e24;
 	background:#ffffff;
 	margin-top: 15px;
 	padding-bottom: 2rem;
@@ -705,15 +705,18 @@ font-size:20px;
 }
 
 .reservation button {
-	background: #156bc1!important;
+	background: #096e24!important;
 }
 .reservation button:hover {
-	background: #156bc1!important;
+	background: #096e24!important;
 	color:#f6f7fa!important;
 }
 .choose:hover {
     color: #fff!important;
-    background-color: #69f084!important;
+    background-color: #096e24!important;
+}
+.choose{
+	background: #096e24!important;
 }
 .reservation p{
 	font-size:1.1rem!important;
@@ -723,7 +726,7 @@ font-size:20px;
 	font-size: 28px;
     line-height: 32px;
     font-weight: 700;
-    color: #d32f2f;
+    color: #096e24;
     margin-bottom: 0;
 }
 .room-title{
@@ -855,7 +858,6 @@ font-size:20px;
 	opacity: 0.8;
 }
 
-/* ### ABOUT PAGE ### */
 /* about */
 .about-right .text {
 	margin-bottom: 1rem;
